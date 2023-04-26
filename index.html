@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>litterae.sharewithyourthoughts</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Litterae</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Resources" onclick="slowScroll('#main')">Resources</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Thoughts">Thoughts</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Contacts">Contacts</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Answers to the main questions">FAQ</a>
+    </div>
+  </header>
+
+<body>
+  <div id="top">
+    <h1>Welcome to the Litterae!</h1>
+    <h3>Share your story with others!</h3>
+  </div>
+ 
+<div class="container-fluid">
+  <div class="row header-t">
+    <div class="col">
+      <h2 class="main-title">Share your thoughts</h2>
+    </div>
+  </div>
+  <div class="alert alert-dark " role="alert">
+    A simple reminder alert—try to be polite with others!</div>
+  <form id="litterae" name="litterae" method="post" action="noaction.html">
+    <fieldset>
+      <div class="form-group">
+       
+        <input type="text" class="form-2control" id="name" name="name" placeholder="Your Pseudonym">
+      </div>
+            <div class="form-group">
+      
+        <input type="text" class="form-1control" id="1litterae" name="Litterae" placeholder="Write here...">
+      </div>
+      <button type="submit" class="btn btn-primary b1b">Send</button>
+    </fieldset>
+  </form>
+</div>
+
+  <div id="overview">
+    <h2>Recommendations</h2>
+    <h4>If you're interested, you can learn even more from here.</h4>
+
+    <div class="container text-center">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col"><h4>Videos related to the theme</h4>
+          <img src="https://cdn.pixabay.com/photo/2016/09/21/11/31/youtube-1684601__480.png" class="img-fluid" alt="">
+          <a href="videos.html" class="btn btn-primary btn-block">Show videos</a></div>
+
+          <div class="col"><h4>Different interesting articles</h4>
+          <img src="https://cdn.pixabay.com/photo/2017/06/30/03/34/gui-2457113__480.png" class="img-fluid" alt="" />
+          <a href="articles.html" class="btn btn-primary btn-block">Show articles</a></div>
+
+          <div class="col"> <h4>Books with same vibe</h4>
+          <img src="https://cdn.pixabay.com/photo/2023/01/01/23/37/woman-7691013__480.jpg" class="img-fluid" alt="" />
+          <a href="books.html" class="btn btn-primary btn-block">Show books</a></div>
+
+          <div class="col"><h4>Podcasts</h4>
+          <img src="https://cdn.pixabay.com/photo/2023/03/30/02/48/puppet-7886702__480.jpg" class="img-fluid" alt="" />
+          <a href="podcasts.html" class="btn btn-primary btn-block">Show podcasts</a></div>
+        </div>
+    </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
